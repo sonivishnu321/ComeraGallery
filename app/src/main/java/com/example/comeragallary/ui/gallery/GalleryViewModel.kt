@@ -19,6 +19,7 @@ class GalleryViewModel @Inject constructor(
                 albumUseCase.invoke().collect {
                     if (it.isSuccess) {
                         albumList = it.getOrDefault(emptyList())
+                        println(albumList)
                     }
                 }
 
