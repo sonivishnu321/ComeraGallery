@@ -43,4 +43,9 @@ gallaryapp/
 └── utils/                    # Utility classes and extension functions
 
 ## 📸 Screenshots
+![Screenshot_20250410_174518](https://github.com/user-attachments/assets/1100831c-9bbb-4eea-a52b-11ccc50aab1a)
 
+![Screenshot_20250410_174639](https://github.com/user-attachments/assets/cc41066c-a1db-4bc6-a6be-33ab3620ffc8)
+![1](https://github.com/user-attachments/assets/93385a14-eaa5-4ccf-a818-f23ae57b868a)
+![Screenshot_20250410_174702](https://github.com/user-attachments/assets/a3bd6223-47c4-4d19-bc5c-a4c664befa08)
+![Screenshot_20250410_174648](https://github.com/user-attachments/assets/5239673f-e1e5-4418-9877-4f01f1239b77)
