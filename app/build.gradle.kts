@@ -62,6 +62,7 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(libs.hilt)
     implementation(libs.coil.compose)
+    implementation(libs.coil.video)
     implementation(libs.compose.navigation)
     implementation(libs.accompanist.permissions)
     implementation(libs.hilt.navigation.compose)

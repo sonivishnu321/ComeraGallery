@@ -10,7 +10,7 @@ import javax.inject.Singleton
 class ImageListUseCase @Inject constructor(
     private val galleryRepository: GalleryRepository
 ) {
-    fun invoke(albumName: String) : Flow<Result<MediaAlbum>> {
+    operator fun invoke(albumName: String) : Flow<Result<MediaAlbum>> {
         return galleryRepository.fetchAlbumMediaImages(albumName = albumName)
     }
 }
