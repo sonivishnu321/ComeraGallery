@@ -1,0 +1,16 @@
+package com.example.comeragallary.domain.usecases
+
+import com.example.comeragallary.data.model.MediaAlbum
+import com.example.comeragallary.data.repository.GalleryRepository
+import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
+import javax.inject.Singleton
+
+@Singleton
+class ImageListUseCase @Inject constructor(
+    private val galleryRepository: GalleryRepository
+) {
+    fun invoke(albumName: String) : Flow<Result<MediaAlbum>> {
+        return galleryRepository.fetchAlbumMediaImages(albumName = albumName)
+    }
+}
