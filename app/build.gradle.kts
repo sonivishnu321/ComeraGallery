@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.comeragallary"
+    namespace = "com.example.gallaryapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.comeragallary"
+        applicationId = "com.example.gallaryapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
